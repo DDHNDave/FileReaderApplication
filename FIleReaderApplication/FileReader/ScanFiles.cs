@@ -1,6 +1,7 @@
 ﻿using FileReader.Interfaces;
 using FileReader.Utilities;
 using System;
+using System.Text.RegularExpressions;
 
 namespace FileReader
 {
@@ -14,6 +15,14 @@ namespace FileReader
         {
             this.FileScanner = fileScanner;
             this.MessagePrinter = messagePrinter;
+        }
+
+        protected string processPathCommandLineArguments(string[] arguments)
+        {
+            Regex normalizePathDividerExpression = new Regex(@"[\\\/]", RegexOptions.IgnoreCase);
+
+            foreach(string path in arguments)
+
         }
 
         public void Run(string[] arguments)
