@@ -1,8 +1,7 @@
 {
   "profiles": {
     "FileReader": {
-      "commandName": "Project",
-      "commandLineArgs": "D:\\Codejams\\FileParser  D:\\Codejams\\FileParser\\TestFil.txt"
+      "commandName": "Project"
     }
   }
 }
