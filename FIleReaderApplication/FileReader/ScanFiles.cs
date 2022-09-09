@@ -9,6 +9,7 @@ namespace FileReader
         protected readonly IFileScanner FileScanner;
 
         protected readonly FileMatchingResultMessagePrinter MessagePrinter;
+
         public ScanFiles(IFileScanner fileScanner, FileMatchingResultMessagePrinter messagePrinter)
         {
             this.FileScanner = fileScanner;
