@@ -1,10 +1,8 @@
 ﻿using FileReader.Interfaces;
 using FileReader.Utilities;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
-using System.IO;
 using System.Linq;
 
 namespace FileReader
