@@ -2,6 +2,7 @@
 
 # Overview solution
 A console applications that can read a file and count the number of times the filename is repeated in the file
+The file name without file name extension will be matched for every line and between file lines
 
 The application can take a single file path by:
 - Sending a commandline argument without name or = before the file path, example --D:\Codejams\TestFil.txt
